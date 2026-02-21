@@ -17,6 +17,8 @@
     <!-- Hoja de Estilos -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="chatbot/chatbot.css">
+    <!-- icono -->
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -281,24 +283,24 @@
     <script src="chatbot/chatbot.js"></script>
 
     <!-- Botón flotante -->
-<div id="chatbot-icon" onclick="toggleChat()">💬</div>
+    <div id="chatbot-icon" onclick="toggleChat()">💬</div>
 
-<!-- Ventana del chatbot -->
-<div id="chatbot">
-    <div class="chat-header">
-        Asistente Virtual
-        <span onclick="toggleChat()">✖</span>
-    </div>
+    <!-- Ventana del chatbot -->
+    <div id="chatbot">
+        <div class="chat-header">
+            Asistente Virtual
+            <span onclick="toggleChat()">✖</span>
+        </div>
 
-    <div class="chat-body" id="chat-body">
-        <div class="bot-message">Hola 👋 ¿En qué puedo ayudarte?</div>
-    </div>
+        <div class="chat-body" id="chat-body">
+            <div class="bot-message">Hola 👋 ¿En qué puedo ayudarte?</div>
+        </div>
 
-    <div class="chat-footer">
-        <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
-        <button onclick="sendMessage()">Enviar</button>
+        <div class="chat-footer">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
     </div>
-</div>
 
 
 </body>
